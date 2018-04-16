@@ -19,16 +19,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qTP-JV-KTS">
-                                <rect key="frame" x="166" y="323" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="165" y="323" width="44" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tdi-o9-OF1">
+                                <rect key="frame" x="148" y="352" width="79" height="30"/>
+                                <state key="normal" title="Regenerate"/>
+                                <connections>
+                                    <action selector="newRandomNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HE3-i0-8BZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="tdi-o9-OF1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0ex-Cv-gQB"/>
                             <constraint firstItem="qTP-JV-KTS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="K99-q1-V6c"/>
                             <constraint firstItem="qTP-JV-KTS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bpb-wR-h3y"/>
+                            <constraint firstItem="tdi-o9-OF1" firstAttribute="top" secondItem="qTP-JV-KTS" secondAttribute="bottom" constant="8" id="ixd-Lv-7rE"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
