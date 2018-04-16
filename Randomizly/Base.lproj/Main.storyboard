@@ -58,6 +58,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xkH-DR-YWk">
                                 <rect key="frame" x="166" y="318" width="43" height="30"/>
                                 <state key="normal" title="Guess"/>
+                                <connections>
+                                    <action selector="guess:" destination="ZBO-9l-tQN" eventType="touchUpInside" id="5Ag-Pq-fe5"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DEF-Za-xcl">
                                 <rect key="frame" x="139" y="280" width="97" height="30"/>
@@ -67,7 +70,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -79,6 +82,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="oNi-7b-3OX"/>
                     </view>
+                    <connections>
+                        <outlet property="inputField" destination="DEF-Za-xcl" id="gY8-3c-SmA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dHy-AY-vnh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
