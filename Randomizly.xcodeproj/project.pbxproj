@@ -15,6 +15,7 @@
 		7CD414672084E3F700134D4C /* RandomizlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD414662084E3F700134D4C /* RandomizlyTests.swift */; };
 		7CD414722084E3F700134D4C /* RandomizlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD414712084E3F700134D4C /* RandomizlyUITests.swift */; };
 		7CD414802084F18D00134D4C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4147F2084F18D00134D4C /* GameViewController.swift */; };
+		7CD414822085009A00134D4C /* RandomizlyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD414812085009A00134D4C /* RandomizlyModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7CD414712084E3F700134D4C /* RandomizlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomizlyUITests.swift; sourceTree = "<group>"; };
 		7CD414732084E3F700134D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CD4147F2084F18D00134D4C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		7CD414812085009A00134D4C /* RandomizlyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomizlyModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				7CD414532084E3F700134D4C /* MenuViewController.swift */,
 				7CD414552084E3F700134D4C /* Main.storyboard */,
 				7CD4147F2084F18D00134D4C /* GameViewController.swift */,
+				7CD414812085009A00134D4C /* RandomizlyModel.swift */,
 				7CD414582084E3F700134D4C /* Assets.xcassets */,
 				7CD4145A2084E3F700134D4C /* LaunchScreen.storyboard */,
 				7CD4145D2084E3F700134D4C /* Info.plist */,
@@ -264,6 +267,7 @@
 			files = (
 				7CD414542084E3F700134D4C /* MenuViewController.swift in Sources */,
 				7CD414802084F18D00134D4C /* GameViewController.swift in Sources */,
+				7CD414822085009A00134D4C /* RandomizlyModel.swift in Sources */,
 				7CD414522084E3F700134D4C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
