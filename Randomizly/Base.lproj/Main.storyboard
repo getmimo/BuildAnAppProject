@@ -72,10 +72,18 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dNs-CT-3Ea">
+                                <rect key="frame" x="166" y="251" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="dNs-CT-3Ea" firstAttribute="centerX" secondItem="EMQ-wp-Qq5" secondAttribute="centerX" id="1nD-X3-Kse"/>
                             <constraint firstItem="DEF-Za-xcl" firstAttribute="centerX" secondItem="EMQ-wp-Qq5" secondAttribute="centerX" id="B53-j1-8jl"/>
+                            <constraint firstItem="DEF-Za-xcl" firstAttribute="top" secondItem="dNs-CT-3Ea" secondAttribute="bottom" constant="8" id="Lf1-kI-Geo"/>
                             <constraint firstItem="xkH-DR-YWk" firstAttribute="centerY" secondItem="EMQ-wp-Qq5" secondAttribute="centerY" id="avA-CV-1Ot"/>
                             <constraint firstItem="xkH-DR-YWk" firstAttribute="centerX" secondItem="EMQ-wp-Qq5" secondAttribute="centerX" id="q9b-JE-5Gm"/>
                             <constraint firstItem="xkH-DR-YWk" firstAttribute="top" secondItem="DEF-Za-xcl" secondAttribute="bottom" constant="8" id="r3g-5e-yQY"/>
@@ -83,6 +91,7 @@
                         <viewLayoutGuide key="safeArea" id="oNi-7b-3OX"/>
                     </view>
                     <connections>
+                        <outlet property="hintLabel" destination="dNs-CT-3Ea" id="sD1-Zv-VR6"/>
                         <outlet property="inputField" destination="DEF-Za-xcl" id="gY8-3c-SmA"/>
                     </connections>
                 </viewController>
